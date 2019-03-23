@@ -1,0 +1,158 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    border-bottom: 1px solid red;
+    padding: 20px 10px;
+    overflow: hidden;
+    background-color: #FFE4B5;
+
+}
+#website{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    font-size: 24px;    
+}
+
+.header-right{
+float: right;
+color: black;
+text-align: center;
+padding: 12px;
+font-size: 18px;
+text-decoration: none;
+margin: 12px;
+
+}
+
+
+.header a:hover{
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+
+}
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+    text-decoration: none;
+
+}
+
+
+/*content*/
+
+.kotel{
+    float: left;
+    padding: 15px;
+}
+.lorem{
+    font-style: italic;
+    font-size: 1.2em;
+    padding: 55px;  
+}
+.przydatne-linki{
+    height: 25em;
+    width: 17em;
+    border: 1px black solid;
+    float: right;
+    
+}
+.przydatne-linki{
+    font-size: 1.1em;
+    text-align: center;
+}
+#linki{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.6em;
+}
+
+
+.przydatne-linki a:link{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+.przydatne-linki a:hover{
+    color: red;
+text-decoration: underline;
+}
+
+.przydatne-linki a:visited{
+    color: purple;
+}
+.przydatne-linki a:active{
+    color: aqua;
+text-decoration: underline;
+}
+
+
+
+/* footer */
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #FFE4B5;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.footer-button {
+    background-color: #18F015;
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+#website {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  
+.header-right, .przydatne-linki{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.kotel {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header a:hover{
+    background-color: ;
+    color: black;
+    text-decoration: none;
+
+}
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+    text-decoration: none;
+
+}
+
+
+}
