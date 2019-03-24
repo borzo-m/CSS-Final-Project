@@ -11,15 +11,15 @@ body{
 }
 
 .header{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #59ABF1;
     padding: 20px 10px;
     overflow: hidden;
-    background-color: #FFE4B5;
+    background-color: #137BD4;
 
 }
 #website{
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 12px;
     font-size: 24px;    
@@ -27,19 +27,22 @@ body{
 
 .header-right{
 float: right;
-color: black;
+color: white;
 text-align: center;
 padding: 12px;
 font-size: 18px;
 text-decoration: none;
 margin: 12px;
+}
 
+#link{
+    color: white;
 }
 
 
 .header a:hover{
     background-color: red;
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 12px;
 
@@ -108,18 +111,28 @@ text-decoration: underline;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #FFE4B5;
+    background-color: #137BD4;
     padding: 5px;
     font-weight: bold;
     font-size: 1.1em;
+    color: red;
 }
 .footer-button {
-    background-color: #18F015;
+    background-color: rgb(224, 22, 46);
     border: none;
     color: white;
     padding: 5px;
     font-size: 0.9em;
 }
+
+
+#git-hub-logo {
+    float: right; 
+
+}
+
+
+
 
 
 /* responsive */
@@ -152,6 +165,13 @@ text-decoration: underline;
   color: white;
     text-decoration: none;
 
+}
+
+#git-hub-logo {
+    display: block;
+    float: none;
+     margin-left: auto;
+    margin-right: auto;
 }
 
 
