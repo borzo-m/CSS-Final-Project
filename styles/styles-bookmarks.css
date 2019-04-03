@@ -54,87 +54,31 @@ margin: 12px;
 
 }
 
+/*bookmark-content*/
 
-/*content*/
+.bookmark-content{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-.kotel{
-    float: left;
-    padding: 15px;
-    height: 230px;
+.about-dogo{
+    height: 280px;
     width: auto;
 }
-.lorem{
-    font-style: italic;
-    font-size: 1.2em;
-    padding: 55px;  
+
+.contact-img{
+    height: 100px;
+    width: auto;
 }
-.przydatne-linki{
-    height: 12em;
-    width: 17em;
-    border: 1px black solid;
-    float: right;
-    
-}
-.przydatne-linki{
-    font-size: 1.1em;
-    text-align: center;
-}
-#linki{
-    font-weight: bold;
-    font-style: italic;
+
+#contact-number{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.6em;
 }
 
-
-.przydatne-linki a:link{
-    color: blue;
-    background-color: transparent;
-    text-decoration: none;
+.contact-images-section {
+    
 }
-.przydatne-linki a:hover{
-    color: red;
-text-decoration: underline;
-}
-
-.przydatne-linki a:visited{
-    color: purple;
-}
-.przydatne-linki a:active{
-    color: aqua;
-text-decoration: underline;
-}
-
-
-
-/* footer */
-
-.footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color:  #0E5694;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 1.1em;
-    color:white;
-}
-.footer-button {
-    background-color: rgb(224, 22, 46);
-    border: none;
-    color: white;
-    padding: 5px;
-    font-size: 0.9em;
-}
-
-
-#git-hub-logo {
-    float: right; 
-
-}
-
-
-
 
 
 /* responsive */
@@ -159,7 +103,6 @@ text-decoration: underline;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
-    height: auto;
 }
 .header a:hover{
     color: black;
