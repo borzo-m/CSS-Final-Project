@@ -45,9 +45,9 @@ margin: 12px;
     color: white;
     text-decoration: none;
     padding: 12px;
-
 }
-.header a.active {
+
+.header a:active {
   background-color: dodgerblue;
   color: white;
     text-decoration: none;
@@ -61,24 +61,42 @@ margin: 12px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*about*/
+
 .about-dogo{
     height: 280px;
     width: auto;
 }
 
+/*contact*/
+
 .contact-img{
-    height: 100px;
+    height: 120px;
     width: auto;
 }
 
 #contact-number{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.6em;
 }
 
-.contact-images-section {
-    
+#git-hub-contact:link {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    font-size: 1.8em;
+    text-decoration: none;
 }
+
+#git-hub-contact:hover {
+    color: red;
+    padding: 3px;
+}
+
+#git-hub-contact:active{
+    color: blueviolet;
+}
+
+
 
 
 /* responsive */
@@ -126,15 +144,18 @@ margin: 12px;
     padding-top: 20px;
 }
 
-#git-hub-logo {
-    display: block;
-    float: right;
-    padding-top: 9px;
-    padding-bottom: 10px;
-    width: 130px;
-    background-color: white;
-   
+.about-dogo{
+    height: 420px;
+    width: auto;
 }
 
+
+.bookmark-content{
+    font-size: 1.7em;
+}
+
+.contact-img{
+    height: 130px;
+}
 
 }
